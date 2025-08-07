@@ -38,7 +38,7 @@ export default function CallOfBladesApp() {
             dextrousCards.push({
               id: i + 1,
               name: c.Nickname || `Card ${i + 1}`,
-              effect: "Effect from TTS", // можно заменить, если появится описание
+              effect: "Effect from TTS",
               image: deckMap[deckPrefix] || undefined,
             });
           }
